@@ -1,0 +1,21 @@
+{
+	"name": "Source_OnPrem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1_myLaptop",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
